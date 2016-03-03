@@ -31,9 +31,11 @@ header {
 
 .logo {
    float: left;
+   width: auto;
 }
 
 .menu {
+   width: auto;
    float: right;
    margin-right: -51px;
 }
@@ -179,7 +181,6 @@ section {
    float: left;
    width: 30%;
    color: white;
-   height: 157px;
    overflow-y: hidden;
 }
 
@@ -206,6 +207,8 @@ section {
 
 .section__p {
    display: block;
+   height: 148px;
+   overflow: hidden;
    font-size: 16px;
    line-height: 24px;
    font-family: 'Open Sans',sans-serif;
@@ -482,7 +485,6 @@ header {
 
 .section__box {
    width: 28%;
-   height: 180px;
    word-wrap: break-word;
 }
 
@@ -790,17 +792,18 @@ section {
 
 .section__box {
    width: 94%;
-   height: 160px;
    word-wrap: break-word;
    margin-left: 0;
 }
 
 .section__box--comments {
-   margin-top: -2px;
+   margin-top: 15px;
+   margin-bottom: 21px;
 }
 
 .section__p {
    line-height: 21px;
+   height: 86px;
 }
 
 .section__p--padding {
@@ -1304,6 +1307,6 @@ article {
 }
 
 .copyright  span {
-   font-size: 12px;
+  font-size: 12px;
 }
 }
